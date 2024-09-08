@@ -8,7 +8,9 @@ class Consumer
     {
         var config = new ConsumerConfig
         {
-            BootstrapServers = ""
+            BootstrapServers = "<BOOTSTRAP SERVERS>",
+            SaslUsername = "<CLUSTER API KEY>",
+            SaslPassword = "<CLUSTER API SECRET>",
         };
     }
 }

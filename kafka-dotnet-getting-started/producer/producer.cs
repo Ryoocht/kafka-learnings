@@ -12,9 +12,9 @@ class Producer
 
         var config = new ProducerConfig
         {
-            BootstrapServers = "pkc-4vndj.australia-southeast1.gcp.confluent.cloud:9092",
-            SaslUsername = "5V7MXIRDTV54SZZM",
-            SaslPassword = "GjXwhjbo6zSYWu8diZeNQSwrnlBz4HF5D10leLDC5ZpIy7Q2HDvcprawZNToYqA",
+            BootstrapServers = "<BOOTSTRAP SERVERS>",
+            SaslUsername = "<CLUSTER API KEY>",
+            SaslPassword = "<CLUSTER API SECRET>",
 
             SecurityProtocol = SecurityProtocol.SaslSsl,
             SaslMechanism = SaslMechanism.Plain,
