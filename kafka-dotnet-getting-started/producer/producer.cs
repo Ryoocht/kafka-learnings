@@ -7,17 +7,15 @@ class Producer
     {
         const string topic = "purchases";
 
-        string[] users = { "eabara", "jsmith", "sgarcia", "jbernard", "htanaka", "awalther" };
-        string[] items = { "book", "alarm clock", "t-shirts", "gift card", "batteries" };
+        string[] users = ["eabara", "jsmith", "sgarcia", "jbernard", "htanaka", "awalther"];
+        string[] items = ["book", "alarm clock", "t-shirts", "gift card", "batteries"];
 
         var config = new ProducerConfig
         {
-            // User-specific properties that you must set
-            BootstrapServers = "<BOOTSTRAP SERVERS>",
-            SaslUsername = "<CLUSTER API KEY>",
-            SaslPassword = "<CLUSTER API SECRET>",
+            BootstrapServers = "pkc-4vndj.australia-southeast1.gcp.confluent.cloud:9092",
+            SaslUsername = "5V7MXIRDTV54SZZM",
+            SaslPassword = "GjXwhjbo6zSYWu8diZeNQSwrnlBz4HF5D10leLDC5ZpIy7Q2HDvcprawZNToYqA",
 
-            // Fixed properties
             SecurityProtocol = SecurityProtocol.SaslSsl,
             SaslMechanism = SaslMechanism.Plain,
             Acks = Acks.All
@@ -33,22 +31,23 @@ class Producer
                 var user = users[rnd.Next(users.Length)];
                 var item = items[rnd.Next(items.Length)];
 
-                producer.Produce(topic, new Message<string, string> { Key = user, Value = item }, (deliveryReport) =>
-                {
-                    if (deliveryReport.Error.Code != ErrorCode.NoError)
+                producer.Produce(topic, new Message<string, string> { Key = user, Value = item },
+                    (deliveryReport) =>
                     {
-                        Console.WriteLine($"Failed to deliver message: {deliveryReport.Error.Reason}");
-                    }
-                    else
-                    {
-                        Console.WriteLine($"Produced event to topic {topic}: key = {user,-10} value = {item}");
-                        numProduced += 1;
-                    };
-                });
+                        if (deliveryReport.Error.Code != ErrorCode.NoError)
+                        {
+                            Console.WriteLine($"Failed to deliver message: {deliveryReport.Error.Reason}");
+                        }
+                        else
+                        {
+                            Console.WriteLine($"Produced event to topic {topic}: key = {user,-10} value = {item}");
+                            numProduced += 1;
+                        }
+                    });
             }
 
             producer.Flush(TimeSpan.FromSeconds(10));
             Console.WriteLine($"{numProduced} messages were produced to topic {topic}");
-        };
+        }
     }
 }
