@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "3fu1gZjpAYo=",
+  "success": true,
+  "projectFilePath": "/Users/ryo/Documents/personal-projects/learnings/kafka-learnings/kafka-dotnet-getting-started/producer/producer.csproj",
+  "expectedPackageFiles": [
+    "/Users/ryo/.nuget/packages/confluent.kafka/2.3.0/confluent.kafka.2.3.0.nupkg.sha512",
+    "/Users/ryo/.nuget/packages/librdkafka.redist/2.3.0/librdkafka.redist.2.3.0.nupkg.sha512",
+    "/Users/ryo/.nuget/packages/system.memory/4.5.0/system.memory.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
