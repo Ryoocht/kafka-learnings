@@ -41,3 +41,13 @@
 /Users/ryo/Documents/personal-projects/learnings/kafka-learnings/kafka-dotnet-getting-started/producer/obj/Debug/netcoreapp8.0/producer.pdb
 /Users/ryo/Documents/personal-projects/learnings/kafka-learnings/kafka-dotnet-getting-started/producer/obj/Debug/netcoreapp8.0/producer.genruntimeconfig.cache
 /Users/ryo/Documents/personal-projects/learnings/kafka-learnings/kafka-dotnet-getting-started/producer/obj/Debug/netcoreapp8.0/ref/producer.dll
+/Users/ryo/Documents/personal-projects/learnings/kafka-learnings/kafka-dotnet-getting-started/producer/bin/Debug/netcoreapp8.0/Microsoft.Extensions.Configuration.dll
+/Users/ryo/Documents/personal-projects/learnings/kafka-learnings/kafka-dotnet-getting-started/producer/bin/Debug/netcoreapp8.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/ryo/Documents/personal-projects/learnings/kafka-learnings/kafka-dotnet-getting-started/producer/bin/Debug/netcoreapp8.0/Microsoft.Extensions.Configuration.Binder.dll
+/Users/ryo/Documents/personal-projects/learnings/kafka-learnings/kafka-dotnet-getting-started/producer/bin/Debug/netcoreapp8.0/Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+/Users/ryo/Documents/personal-projects/learnings/kafka-learnings/kafka-dotnet-getting-started/producer/bin/Debug/netcoreapp8.0/Microsoft.Extensions.Configuration.FileExtensions.dll
+/Users/ryo/Documents/personal-projects/learnings/kafka-learnings/kafka-dotnet-getting-started/producer/bin/Debug/netcoreapp8.0/Microsoft.Extensions.Configuration.Json.dll
+/Users/ryo/Documents/personal-projects/learnings/kafka-learnings/kafka-dotnet-getting-started/producer/bin/Debug/netcoreapp8.0/Microsoft.Extensions.FileProviders.Abstractions.dll
+/Users/ryo/Documents/personal-projects/learnings/kafka-learnings/kafka-dotnet-getting-started/producer/bin/Debug/netcoreapp8.0/Microsoft.Extensions.FileProviders.Physical.dll
+/Users/ryo/Documents/personal-projects/learnings/kafka-learnings/kafka-dotnet-getting-started/producer/bin/Debug/netcoreapp8.0/Microsoft.Extensions.FileSystemGlobbing.dll
+/Users/ryo/Documents/personal-projects/learnings/kafka-learnings/kafka-dotnet-getting-started/producer/bin/Debug/netcoreapp8.0/Microsoft.Extensions.Primitives.dll
