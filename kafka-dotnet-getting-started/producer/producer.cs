@@ -18,11 +18,6 @@ class Producer
         string[] users = ["eabara", "jsmith", "sgarcia", "jbernard", "htanaka", "awalther"];
         string[] items = ["book", "alarm clock", "t-shirts", "gift card", "batteries"];
 
-        Console.WriteLine($"BootstrapServers: {config["Kafka:BootstrapServers"]}");
-        Console.WriteLine($"SaslUsername: {config["Kafka:SaslUsername"]}");
-        Console.WriteLine($"SaslPassword: {config["Kafka:SaslPassword"]}");
-
-
         var producerConfig = new ProducerConfig
         {
             BootstrapServers = config["Kafka:BootstrapServers"],
