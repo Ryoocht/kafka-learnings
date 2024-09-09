@@ -15,8 +15,8 @@ class Producer
 
         const string topic = "purchases";
 
-        string[] users = ["eabara", "jsmith", "sgarcia", "jbernard", "htanaka", "awalther"];
-        string[] items = ["book", "alarm clock", "t-shirts", "gift card", "batteries"];
+        string[] users = { "eabara", "jsmith", "sgarcia", "jbernard", "htanaka", "awalther" };
+        string[] items = { "book", "alarm clock", "t-shirts", "gift card", "batteries" };
 
         var producerConfig = new ProducerConfig
         {
