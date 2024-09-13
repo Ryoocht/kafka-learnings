@@ -8,8 +8,8 @@ public class ProducerService
 
     public ProducerService(ILogger<ProducerService> logger)
     {
-        _logger = logger
-    };
+        _logger = logger;
+    }
 
     public async Task ProduceAsync(CancellationToken cancellationToken)
     {
@@ -26,15 +26,15 @@ public class ProducerService
         {
             var deliveryResult = await producer.ProduceAsync(
                 topic: "test-topic",
-                new Message<Nullable, string>
+                new Message<Null, string>
                 {
-                    ValueTask = $"Hello, Kafka! {DateTime.UtcNow}"
+                    Value = $"Hello, Kafka! {DateTime.UtcNow}"
                 },
                 cancellationToken
             );
             _logger.LogInformation($"Delivered message to {deliveryResult.Value}, Offset: {deliveryResult.Offset}");
         }
-        catch (ProduceException<Null, string>)
+        catch (ProduceException<Null, string> e)
         {
             _logger.LogError($"Delivery failed: {e.Error.Reason}");
         }

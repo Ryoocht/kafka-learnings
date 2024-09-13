@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KafkaDockerDotnet.ProducerApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e9858791c9e678df81c5bf3c6ca4866d2d1a5e81")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9052444bd141076a50701db85a439ac26b64d003")]
 [assembly: System.Reflection.AssemblyProductAttribute("KafkaDockerDotnet.ProducerApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KafkaDockerDotnet.ProducerApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

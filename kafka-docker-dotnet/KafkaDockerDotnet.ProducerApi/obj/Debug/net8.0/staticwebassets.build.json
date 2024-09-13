@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "PnJESw1m8OPw/yFe/Mlex/NJkTwTpgt+QYtDeCHBBdE=",
+  "Source": "KafkaDockerDotnet.ProducerApi",
+  "BasePath": "_content/KafkaDockerDotnet.ProducerApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
