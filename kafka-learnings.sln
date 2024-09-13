@@ -9,6 +9,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "producer", "kafka-dotnet-ge
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "consumer", "kafka-dotnet-getting-started\consumer\consumer.csproj", "{D09EBBD4-6A88-42AD-A97B-5730898A0521}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "kafka-docker-dotnet", "kafka-docker-dotnet", "{C66D0773-D81D-4138-ACCD-C29779E7051D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaDockerDotnet.Consumer", "kafka-docker-dotnet\KafkaDockerDotnet.Consumer\KafkaDockerDotnet.Consumer.csproj", "{397DB148-8308-417F-A582-5A6634AD3488}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaDockerDotnet.ProducerApi", "kafka-docker-dotnet\KafkaDockerDotnet.ProducerApi\KafkaDockerDotnet.ProducerApi.csproj", "{81ED02BB-E3DE-4AAD-8EEE-49A40435C7E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +29,14 @@ Global
 		{D09EBBD4-6A88-42AD-A97B-5730898A0521}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D09EBBD4-6A88-42AD-A97B-5730898A0521}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D09EBBD4-6A88-42AD-A97B-5730898A0521}.Release|Any CPU.Build.0 = Release|Any CPU
+		{397DB148-8308-417F-A582-5A6634AD3488}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{397DB148-8308-417F-A582-5A6634AD3488}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{397DB148-8308-417F-A582-5A6634AD3488}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{397DB148-8308-417F-A582-5A6634AD3488}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81ED02BB-E3DE-4AAD-8EEE-49A40435C7E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81ED02BB-E3DE-4AAD-8EEE-49A40435C7E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81ED02BB-E3DE-4AAD-8EEE-49A40435C7E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81ED02BB-E3DE-4AAD-8EEE-49A40435C7E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +44,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{51C56EBC-CC9C-4BC6-9084-0519C9A34CCF} = {0BB118E6-A3F2-4830-99E9-BC35F079CA66}
 		{D09EBBD4-6A88-42AD-A97B-5730898A0521} = {0BB118E6-A3F2-4830-99E9-BC35F079CA66}
+		{397DB148-8308-417F-A582-5A6634AD3488} = {C66D0773-D81D-4138-ACCD-C29779E7051D}
+		{81ED02BB-E3DE-4AAD-8EEE-49A40435C7E0} = {C66D0773-D81D-4138-ACCD-C29779E7051D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {93C169B3-D89A-4204-9553-1E12C1057AD2}
