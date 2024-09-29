@@ -17,7 +17,7 @@
           "/Users/ryo/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp8.0"
+          "net8.0"
         ],
         "sources": {
           "/usr/local/share/dotnet/library-packs": {},
@@ -25,7 +25,7 @@
         },
         "frameworks": {
           "net8.0": {
-            "targetAlias": "netcoreapp8.0",
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -42,7 +42,7 @@
       },
       "frameworks": {
         "net8.0": {
-          "targetAlias": "netcoreapp8.0",
+          "targetAlias": "net8.0",
           "dependencies": {
             "Confluent.Kafka": {
               "target": "Package",
